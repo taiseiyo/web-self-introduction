@@ -1,6 +1,7 @@
 $height: 100%;
 $per-val: 500px;
 
+
 html,body{
     height:$height;
     margin:0px;
@@ -20,7 +21,6 @@ html,body{
     text-align: justify;
     padding: 5%;
 
-    // -webkit-animation: typetext linear 15s infinite;
     animation-name:typetext;
     animation-timing-function: linear;
     animation-duration: 15s;
@@ -35,6 +35,8 @@ html,body{
 }
  
 @-webkit-keyframes typetext {
-    0% {transform: rotateX(25deg) translate(0,0px);}
-    100% {transform: rotateX(25deg) translate(0,-1000px);}
+    $angle:25deg;
+    // ratate 〇 は、〇軸を指定の軸として angle の回転を行う
+    0% {transform: rotateX($angle) translate(0,0px);}
+    100% {transform: rotateX($angle) translate(0,-1000px);}
 }
