@@ -1,19 +1,22 @@
+$height: 100%;
+$per-val: 500px;
+
 html,body{
-    height:100%;
+    height:$height;
     margin:0px;
 }
 
 .type-pers-parent {
-    perspective: 500px;
-    -webkit-perspective: 500px;
-    height: 100%;
+    perspective: $per-val;
+    -webkit-perspective: $per-val;
+    height: $height;
     background-color: #222;
     overflow: hidden;
     padding:0px;
 }
 
 .type-pers-child {
-    height:100%;
+    height:$height;
     text-align: justify;
     padding: 5%;
     -webkit-animation: typetext linear 10s infinite;
