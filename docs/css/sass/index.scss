@@ -1,7 +1,6 @@
 $height: 100%;
 $per-val: 500px;
 
-
 html,body{
     height:$height;
     margin:0px;
@@ -20,7 +19,6 @@ html,body{
     height:$height;
     text-align: justify;
     padding: 5%;
-
     animation-name:typetext;
     animation-timing-function: linear;
     animation-duration: 15s;
