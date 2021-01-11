@@ -19,7 +19,7 @@ html,body{
     height:$height;
     text-align: justify;
     padding: 5%;
-    -webkit-animation: typetext linear 10s infinite;
+    -webkit-animation: typetext linear 15s infinite;
     color: #F1C40F;
     letter-spacing: 1px;
     p{
@@ -33,6 +33,6 @@ html,body{
 	transform: rotateX(25deg) translate(0,0px);
     }
     100% {
-	transform: rotateX(25deg) translate(0,-600px);
+	transform: rotateX(25deg) translate(0,-1000px);
     }
 }
