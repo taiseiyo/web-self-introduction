@@ -22,15 +22,15 @@ html, body {
 }
 .type-pers-child p {
   position: relative;
-  top: 250px;
+  top: 200px;
 }
 
 @-webkit-keyframes typetext {
   0% {
-    transform: rotateX(25deg) translate(0, 0);
+    transform: rotateX(25deg) translate(0, 0px);
   }
   100% {
-    transform: rotateX(25deg) translate(0, -500px);
+    transform: rotateX(25deg) translate(0, -600px);
   }
 }
 
