@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+
+.type-pers-parent {
+  perspective: 500px;
+  -webkit-perspective: 500px;
+  height: 100%;
+  background-color: #222;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.type-pers-child {
+  height: 100%;
+  text-align: justify;
+  padding: 5%;
+  animation-name: typetext;
+  animation-timing-function: linear;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  color: #F1C40F;
+  letter-spacing: 1px;
+}
+.type-pers-child p {
+  position: relative;
+  top: 200px;
+}
+
+@-webkit-keyframes typetext {
+  0% {
+    transform: rotateX(25deg) translate(0, 0px);
+  }
+  100% {
+    transform: rotateX(25deg) translate(0, -1000px);
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

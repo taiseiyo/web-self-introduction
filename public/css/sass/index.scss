@@ -1,0 +1,40 @@
+$height: 100%;
+$per-val: 500px;
+
+html,body{
+    height:$height;
+    margin:0px;
+}
+
+.type-pers-parent {
+    perspective: $per-val;
+    -webkit-perspective: $per-val;
+    height: $height;
+    background-color: #222;
+    overflow: hidden;
+    padding:0px;
+}
+
+.type-pers-child {
+    height:$height;
+    text-align: justify;
+    padding: 5%;
+    animation-name:typetext;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    
+    color: #F1C40F;
+    letter-spacing: 1px;
+    p{
+	position:relative;
+	top:200px;
+    }
+}
+ 
+@-webkit-keyframes typetext {
+    $angle:25deg;
+    // ratate 〇 は、〇軸を指定の軸として angle の回転を行う
+    0% {transform: rotateX($angle) translate(0,0px);}
+    100% {transform: rotateX($angle) translate(0,-1000px);}
+}

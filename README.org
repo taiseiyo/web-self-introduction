@@ -6,4 +6,7 @@ The image diagram is as follows.
 [[https://raw.githubusercontent.com/taiseiyo/web-self-introduction/master/screenshot.png]]
 
 - URL
-https://taiseiyo.github.io/web-self-introduction/
+  - GitHub pages
+    https://taiseiyo.github.io/web-self-introduction/
+  - Firebase 
+    https://web-self-introduction.web.app
