@@ -3,3 +3,5 @@ It is a program that introduces itself using the web.
 The image diagram is as follows.
 
 - Image
+#+after_html : :width_80px
+[[https://raw.githubusercontent.com/taiseiyo/web-self-introduction/master/screen.png]]
