@@ -4,7 +4,7 @@ The image diagram is as follows.
 
 - Image
 
-#+attr_html: :width 50px
-#+attr_latex: :width 50px
+#+attr_html: :width 50%
+#+attr_latex: :width 50%
 
 [[https://raw.githubusercontent.com/taiseiyo/web-self-introduction/master/screenshot.png]]
