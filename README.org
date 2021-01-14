@@ -7,6 +7,6 @@ The image diagram is as follows.
 
 - URL
   - GitHub pages
-    https://taiseiyo.github.io/web-self-introduction/
+    - https://taiseiyo.github.io/web-self-introduction/
   - Firebase 
-    https://web-self-introduction.web.app
+    - https://web-self-introduction.web.app
